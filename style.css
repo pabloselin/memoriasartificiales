@@ -1,0 +1,57 @@
+/*
+ Theme Name:   Memorias Artificiales 21
+ Theme URI:    https://memoriasartificiales.cl
+ Description:  Tema hijo de TwentyTwentyIne para Memorias Artificiales
+ Author:       Pablo Selín Carrasco Armijo
+ Author URI:   https://pablosel.in
+ Template:     twentytwentyone
+ Version:      1.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentytwentytwo
+*/
+
+body {
+    background-color: white !important;
+}
+
+.page-home {
+    text-align: center;
+}
+
+.tagcloud {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.tagcloud a {
+    font-size: 22px !important;
+    background-color: #45ab81;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px;
+    padding: 6px;
+    transition: all ease-in 0.2s;
+}
+
+.tagcloud a:hover {
+    background-color: #fd2f08;
+}
+
+.tagtitle-section {
+    font-family: var(--wp-preset--font-family--sans);
+    background-color: #45ab81;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+h1.page-title {
+    text-align: center;
+}
+
+h1.entry-title {
+    text-align: center;
+}
